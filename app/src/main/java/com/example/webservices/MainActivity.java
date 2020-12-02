@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void getBanco() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://api-uat.kushkipagos.com/transfer-subscriptions/v1/")
+                .baseUrl("https://api-uat.kushkipagos.com/transfer/v1/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
